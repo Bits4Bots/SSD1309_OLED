@@ -1,5 +1,5 @@
 {
-  "name": "SSD1309-oled",
+  "name": "SSD1309-OLED",
   "version": "0.0.1",
   "description": "MakeCode extension for SSD1309 2.42 inch OLED with scroll text support.",
   "license": "MIT",
@@ -20,3 +20,4 @@
     ],
     "preferredEditor": "tsprj"
 }
+
