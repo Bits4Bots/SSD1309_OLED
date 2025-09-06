@@ -3,7 +3,7 @@
 A MakeCode extension for driving 128x64 SSD1309 OLED displays over I²C.  
 Tested on 2.42" OLED modules with 4-pin interface (VCC, GND, SDA, SCL).
 
-<img width="250" height="250" alt="Bits4Bots Logo Registered" src="https://github.com/user-attachments/assets/577b4089-4517-49e3-8555-a530e5e59694" />
+<img width="250" height="300" alt="Bits4Bots Logo Registered" src="https://github.com/user-attachments/assets/577b4089-4517-49e3-8555-a530e5e59694" />
 
 
 ### Features
@@ -31,3 +31,4 @@ SDA → P20
 
 
 SCL → P19
+
