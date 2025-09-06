@@ -5,9 +5,10 @@ declare interface Math {
 //% color=#3af0e7 icon="\uf26c" block="SSD1309 OLED"
 namespace SSD1309_OLED {
     let i2cAddr = 60   // default 0x3C
-    let buf = pins.createBuffer(2);
+    //let buf = pins.createBuffer(2)
+    let font: Buffer;
     
-const SSD1309_SETCONTRAST = 0x81
+    const SSD1309_SETCONTRAST = 0x81
     const SSD1309_SETCOLUMNADRESS = 0x21
     const SSD1309_SETPAGEADRESS = 0x22
     const SSD1309_DISPLAYALLON_RESUME = 0xA4
@@ -628,5 +629,3 @@ const SSD1309_SETCONTRAST = 0x81
         clear()
     }
 } 
-
-
