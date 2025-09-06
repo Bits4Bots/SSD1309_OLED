@@ -12,8 +12,6 @@
   "testFiles": [],
   "public": true
 }
-    ],
-   "public": true,
     "targetVersions": {
         "target": "0.0.1",
         "targetId": "microbit"
@@ -23,4 +21,5 @@
     ],
     "preferredEditor": "tsprj"
 }
+
 
