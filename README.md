@@ -27,8 +27,6 @@ VCC → 3.3V
 
 GND → GND
 
-SDA → P20
-
-
 SCL → P19
 
+SDA → P20
