@@ -1,5 +1,5 @@
 {
-  "name": "pxt-ssd1309-oled",
+  "name": "SSD1309_OLED",
   "version": "0.0.1",
   "description": "MakeCode extension for SSD1309 2.42 inch OLED with scroll text support.",
   "license": "MIT",
@@ -12,6 +12,7 @@
   "testFiles": [],
   "public": true
 }
-}
+
+
 
 
