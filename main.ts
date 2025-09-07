@@ -11,13 +11,13 @@ namespace SSD1309_OLED {
     let loadStarted: boolean
     let loadPercent: number
 
-    //let oldX = charX
-    //let oldY = charY
-    //charX = x
-    //charY = 0
-    //writeString(padded)
-    //charX = oldX
-    //charY = oldY
+    let oldX = charX
+    let oldY = charY
+    charX = x
+    charY = 0
+    writeString(padded)
+    charX = oldX
+    charY = oldY
 
     // --- Address Enum for Dropdown ---
     export enum OLED_I2C_Address {
@@ -124,13 +124,7 @@ export function scrollText(text: string, delay: number) {
     // restore cursor
     charX = savedX
     charY = savedY
-}
+}    
         }
     }
 }
-
-
-
-
-
-
