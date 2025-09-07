@@ -86,26 +86,32 @@ namespace SSD1309_OLED {
         writeString(n.toString())
     }
 
-    //% block="scroll text %text with speed %delay ms"
-    //% text.shadow="text"
-    //% delay.defl=100
-    //% weight=60
-    export function scrollText(text: string, delay: number) {
-        let padded = text + "   "
-        let startX = 128
-        let endX = -padded.length * 6
-        for (let x = startX; x >= endX; x--) {
-            clear()
-            let oldX = charX
-            let oldY = charY
-            charX = x
-            charY = 0
-            writeString(padded)
-            charX = oldX
-            charY = oldY
-            basic.pause(delay)
+//% block="scroll text %text with speed %delay ms"
+//% text.shadow="text"
+//% delay.defl=100
+//% weight=60
+export function scrollText(text: string, delay: number) {
+    let padded = text + "   "
+    let startX = displayWidth
+    let endX = -padded.length * 6
+    let savedX = charX
+    let savedY = charY
+
+    for (let x = startX; x >= endX; x--) {
+        clear()
+        charX = x
+        charY = 0
+        writeString(padded)
+        basic.pause(delay)
+    }
+
+    // restore cursor
+    charX = savedX
+    charY = savedY
+}
         }
     }
 }
+
 
 
