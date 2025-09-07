@@ -30,3 +30,7 @@ GND → GND
 SCL → P19
 
 SDA → P20
+
+<img width="761" height="721" alt="microbit pins-v1-v2" src="https://github.com/user-attachments/assets/d90dc344-56bb-4b7c-817f-5328159f58ec" />
+
+<img width="2060" height="1096" alt="Cold-Hot" src="https://github.com/user-attachments/assets/afb10276-0a9b-4d9f-b46d-d027721c89c4" />
