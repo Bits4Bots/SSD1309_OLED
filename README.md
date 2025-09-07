@@ -31,7 +31,15 @@ SCL → P19
 
 SDA → P20
 
+## Pinout
+
 <img width="361" height="321" alt="microbit pins-v1-v2" src="https://github.com/user-attachments/assets/d90dc344-56bb-4b7c-817f-5328159f58ec" />
 
-<img width="1060" height="596" alt="Cold-Hot" src="https://github.com/user-attachments/assets/afb10276-0a9b-4d9f-b46d-d027721c89c4" />
 
+## Blocks
+
+<img width="560" height="396" alt="Cold-Hot" src="https://github.com/user-attachments/assets/afb10276-0a9b-4d9f-b46d-d027721c89c4" />
+
+## Licence
+
+MIT
