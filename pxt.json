@@ -1,10 +1,13 @@
 {
   "name": "SSD1309_OLED",
   "version": "0.0.1",
-  "description": "MakeCode extension for SSD1309 2.42 inch OLED with scroll text support.",
+  "description": "MakeCode extension for SSD1309 2.42 inch OLED (Bits4Bots) with scroll text support.",
   "license": "MIT",
   "dependencies": {
     "core": "*"
+  },
+  "targetDependencies": {
+    "microbit": "*"
   },
   "files": [
     "main.ts"
@@ -14,6 +17,7 @@
   ],
   "public": true
 }
+
 
 
 
