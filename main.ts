@@ -1,7 +1,15 @@
 //% color=#3af0e7 icon="\uf26c" block="SSD1309 OLED"
 namespace SSD1309_OLED {
     let font: Buffer
-    let chipAddress = 0x3C  // default = 60 decimal
+
+    let chipAddress = 0x3C
+    let charX = 0      // <--- add this
+    let charY = 0      // <--- add this
+    let displayWidth = 128
+    let displayHeight = 64 / 8
+    let screenSize = 0
+    let loadStarted: boolean
+    let loadPercent: number
 
     // --- Address Enum for Dropdown ---
     export enum OLED_I2C_Address {
@@ -112,6 +120,7 @@ export function scrollText(text: string, delay: number) {
         }
     }
 }
+
 
 
 
